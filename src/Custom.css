@@ -1,0 +1,130 @@
+@media only screen and (min-width: 600px) {
+  #DincerLogo {
+    max-height: 4rem;
+    margin-top: 3rem;
+    margin-left: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #DincerLogo {
+    max-height: 3rem;
+    margin-top: 1rem
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  #IconLogo {
+    width: 55px;
+    height: 55px
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  #IconLogo {
+    width: 40px;
+    height: 40px
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  #DincerForm {
+    margin-bottom: 1px;
+    margin-top: 15px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #DincerForm {
+    margin-top: 3px;
+  }
+}
+
+.leaflet-container {
+  width: 100vw;
+  height: 50vh;
+}
+
+
+@media only screen and (min-width: 600px) {
+  #GonderiTakipAdi {
+    margin-top: 3rem;
+    margin-right: 2rem;
+    color: #ffffff;
+    text-align: right;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #GonderiTakipAdi {
+    max-height: 3rem;
+    margin-top: 1rem;
+    color: #ffffff;
+    text-align: right;
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  #CardMedia {
+    width: 400px;
+    max-height: 200px;
+    max-inline-size: max-content;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  #CardMedia {
+    width: 320px;
+    max-height: 200px;
+    max-inline-size: max-content;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #CardMedia {
+    width: 240px;
+    max-height: 200px;
+    max-inline-size: max-content;
+  }
+}
+
+
+[data-theme="light"] {
+  .LoginPage {
+    background: linear-gradient(to right, #fbfcfc, #f7f6fd);
+  }
+  .AppBar{
+    background: linear-gradient(to right, #fbfcfc, #f7f6fd);
+  }
+  .AppBarTitle{
+    color:#0a295f
+  }
+}
+
+[data-theme="dark"] {
+  .LoginPage{
+     background: linear-gradient(to right, #0a295f, #01afeb);
+  }
+  .Login_btn {
+    background: linear-gradient(to right, #0a295f, #01afeb)
+  }
+  .AppBar{
+    background: linear-gradient(to right, #0a295f , #01afeb)
+  }
+  .Drawer{
+    
+  }
+}
+
+/* * {
+  transition: all 0.3s ease-in-out;
+} */
+
+
+
+/* style={{ maxHeight: "5rem", marginTop: "4rem" }} */
+
+/* hidden={stage != 2} */
+
+/* style={{ width: 100, height: 100 }}  */
